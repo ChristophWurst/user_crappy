@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info>
+	<id>user_external</id>
+	<name>Crappy user support</name>
+	<description>Dummy user backend for testing purposes</description>
+	<licence>AGPL</licence>
+	<author>Christoph Wurst</author>
+	<dependencies>
+		<nextcloud min-version="11" max-version="11" />
+	</dependencies>
+	<namespace>UserCrappy</namespace>
+	<version>0.1</version>
+	<types>
+		<authentication/>
+		<prelogin/>
+	</types>
+</info>
